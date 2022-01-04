@@ -379,8 +379,7 @@ CREATE TABLE `tb_users` (
 INSERT INTO `tb_users` (`id_user`, `user_name`, `user_email`, `user_password`, `user_birth`, `user_cpf`, `user_phone`, `user_cellphone`, `user_address`, `user_created_in`, `profile_id`, `user_full_name`, `user_status`, `observaciones`) VALUES
 (1, 'EJEMPLO', 'ejemplo@email.com', '$2y$10$5Ac.tC/syFSa.dOvpdaryOkIRTBzVoaP/laSW9MLU4o1Q9av6Rb5m', '2019-12-01', '00000000', '(85) 3099-0000', '(85) 99990-0001', 'Rua Bem Ali', '2019-12-18 13:42:21', 2, '', '', ''),
 (2, 'vandreh', 'vandreh@email.com', '$2y$10$7KzkJzZJTIFw5MDpDFCR5OTkvigwQu8tZMTXDrV1UiNLIE970JOiq', '2001-01-01', '12312312312321', '(85) 0000-1111', '213123213132', 'Rua Bem Ali, 23', '2019-12-18 13:45:32', 1, '', '', ''),
-(3, 'REGISTRO DE USUARIO', 'cadastro@email.com', '$2y$10$hIWBgGICVY7yZDXH5fNhl.qBiYfqYeY0e09852IDXqNI/GFgBIOq6', '2021-01-06', '000', '0', '1', 'calle 54', '2021-01-06 05:08:58', 3, '', '', ''),
-(4, 'Gabriela', 'gabynh@hotmail.com', '$2y$10$MZfWZpKcQgD2FRFx5IemXuL0jPNxMkVZovHkUK2gR.ASNxHGTrAku', '1983-01-29', '41680910', '973195584', '973195642', 'Calle 54 NÂ° 109 DPTO 406, San Isidro', '2021-01-28 03:53:59', 2, '', '', '');
+(3, 'REGISTRO DE USUARIO', 'cadastro@email.com', '$2y$10$hIWBgGICVY7yZDXH5fNhl.qBiYfqYeY0e09852IDXqNI/GFgBIOq6', '2021-01-06', '000', '0', '1', 'calle 54', '2021-01-06 05:08:58', 3, '', '', '');
 
 CREATE TABLE `tb_users1` (
   `id_user` int(11) NOT NULL,
