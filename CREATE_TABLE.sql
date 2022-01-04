@@ -1,0 +1,23 @@
+CREATE TABLE  public.detalle_ventas (
+  id_venta integer NOT NULL,
+  id_estoque integer NOT NULL,
+  id_cliente integer NOT NULL,
+  cliente_name VARCHAR(255) NOT NULL,
+  producto_venta VARCHAR(255) NOT NULL,
+  codigo VARCHAR(50) NOT NULL,
+  lote VARCHAR(50) NOT NULL,
+  descuento_venta decimal(11,2) NOT NULL,
+  delivery decimal(11,2) NOT NULL,
+  fecha_entrega date NOT NULL,
+  precio_compra decimal(11,2) NOT NULL,
+  precio_venta decimal(11,2) NOT NULL,
+  fecha_venta date NOT NULL,
+  observaciones VARCHAR(255) NOT NULL,
+  tipo_producto VARCHAR(50) NOT NULL,
+  vencimiento date NOT NULL,
+  id_producto integer NOT NULL,
+  fecha_compra date NOT NULL,
+  seguimiento integer NOT NULL,
+  user_created_in timestamp NULL DEFAULT current_timestamp,
+  user_cpf varchar(30) NOT NULL
+);
